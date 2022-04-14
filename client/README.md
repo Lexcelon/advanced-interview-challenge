@@ -18,6 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+## Project Structure
+Note: There's extra folders in there (api, constants, lib) that you don't necessarily need to use unless you want to. Don't let that throw you off if it is confusing, but you're welcome to use it if you want to.
+
 ## Learn More
 
 [React Documentation](https://reactjs.org/)
