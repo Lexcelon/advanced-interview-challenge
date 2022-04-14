@@ -1,0 +1,11 @@
+'use strict';
+process.env.NODE_ENV = process.env.NODE_ENV == undefined ? process.argv[4] : process.env.NODE_ENV;
+require('custom-env').env(true, './config');
+const path = require('path');
+
+module.exports = {
+  'config': path.resolve('config', 'config.js'),
+  'models-path': path.resolve('models'),
+  'seeders-path': path.resolve('seeders'),
+  'migrations-path': path.resolve('migrations'),
+};
