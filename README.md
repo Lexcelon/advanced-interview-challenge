@@ -16,6 +16,12 @@ You are going to make a contact management tool, storing names and email address
 
 Within this repository, there are two main folders for you: [client/](client) and [server/](server). The client/ folder contains a React website. The server/ project contains a NodeJS server. The projects are already set up with most everything you will need in order to run them.
 
+### The Requirements
+1. Page to view a table of contact’s names and email addresses stored in a database and delete a contact from the database using MaterialUI for UI components.
+2. Page to add a contact (name and email address) into a database.
+3. Ability to navigate between the table view page and create new contact page.
+4. A NodeJS/ExpressJS server connected to a MySQL database to store and retrieve the contacts using Sequelize.
+
 ### Setup Task 1: Try to run both projects.
 Fork this repository (top right of page) into your own GitHub repo. Using a terminal, putty, or something similar, clone the repo to your computer and run the React client project and the NodeJS server project separately. Check out the READMEs in each project for more information on how to run them. The client project should not have any errors when you first run it. Your server project should say that you don't have your env file for the current environment and you have a database connection issue, but we'll fix that in the next step!
 
