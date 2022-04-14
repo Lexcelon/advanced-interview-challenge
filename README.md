@@ -29,7 +29,7 @@ Fork this repository (top right of page) into your own GitHub repo. Using a term
 Set up and install a local MySQL database (and some kind of database viewer, like MySQLWorkbench) and create a new schema called lexcelon_interview_challenge. Once set up, use the credentials you used during setup of your local database to populate an environment variables configuration file. There is an example configuration file provided in server/config/.env.example. Duplicate this file in the same folder, update your database password, and name it .env.
 
 ### Setup Task 3: Create a Sequelize Model to hold your contact data.
-Sequelize is a tool we use to create and manage our database schema. In the server/models folder, create your Sequelize model (Sequelize model = database table).
+Sequelize is a tool we use to create and manage our database schema. In the server/models folder, create your Sequelize model (Sequelize model = database table). If you were making a Contact table, you should make a file called Contact.js in the models/ folder and create the Sequelize model in there, being sure to export that model from models/index.js.
 
 Note: Behind the scene, Sequelize will convert your fields (column names) to snake_case. Use camalCase when creating your model. You may notice in the seeder file that they are in snake_case-- that is just how the seeder files work.
 
