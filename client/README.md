@@ -6,6 +6,10 @@ This project was bootstrapped with Lexcelon's standard React site template.
 
 In the project directory, you can run:
 
+### `npm install`
+
+Installs all the dependencies you will need in order to run your React project.
+
 ### `npm start`
 
 Runs the app in the development mode.\
