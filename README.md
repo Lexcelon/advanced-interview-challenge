@@ -12,7 +12,7 @@ You will be evaluated on the following:
 We do not want to take a ton of your time, so the tasks should be fairly straightforward. Try not to overly complicate them. Let us know if you're completely stumped-- sometimes computers can be annoying.
 
 ## Your Challenge
-You are going to make a contact management tool, storing names and email addresses for a list of contacts/people in a database and allowing a user to create/delete these contacts using a React website. The shell of both the React site and NodeJS server are already prepared for you. Included below is a rough sketch for a possible way the site could look, but don’t feel tied down to this sketch if you don’t want to be. It is a-okay, too, if you want to make it look exactly like this sketch.
+You are going to make a contact management tool, storing names and email addresses for a list of contacts/people in a database and allowing a user to create/delete these contacts using a React website. The shell of both the React site and NodeJS server are already prepared for you. Included below is a rough sketch for a possible way the site could look, but don’t feel tied down to this sketch if you don’t want to be. It is a-okay, too, if you want to make it look exactly like this sketch. You're welcome to go as overboard with functionality and ui as you want, but there's no requirement to do any more than what is outlined.
 
 Within this repository, there are two main folders for you: [client/](client) and [server/](server). The client/ folder contains a React website. The server/ project contains a NodeJS server. The projects are already set up with most everything you will need in order to run them.
 
