@@ -21,3 +21,5 @@ Drops all MySQL tables and re-creates them.
 [ExpressJS Installing](https://expressjs.com/en/starter/installing.html)
 
 [Sequelize Documentation](https://sequelize.org/v7/)
+
+[MySQL Documentation](https://dev.mysql.com/downloads/mysql/)
