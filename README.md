@@ -23,7 +23,7 @@ Within this repository, there are two main folders for you: [client/](client) 
 4. A NodeJS/ExpressJS server connected to a MySQL database to store and retrieve the contacts using Sequelize.
 
 ### Setup Task 1: Try to run both projects.
-Fork this repository (top right of page) into your own GitHub repo. Using a terminal, putty, or something similar, clone the repo to your computer and run the React client project and the NodeJS server project separately. Check out the READMEs in each project for more information on how to run them. The client project should not have any errors when you first run it. Your server project should say that you don't have your env file for the current environment and you have a database connection issue, but we'll fix that in the next step!
+Fork this repository (top right of page) into your own GitHub repo then make your repo private. Using a terminal, putty, or something similar, clone the repo to your computer and run the React client project and the NodeJS server project separately. Check out the READMEs in each project for more information on how to run them. The client project should not have any errors when you first run it. Your server project should say that you don't have your env file for the current environment and you have a database connection issue, but we'll fix that in the next step!
 
 ### Setup Task 2: Create a MySQL server on your local machine and give the server the credentials.
 Set up and install a local MySQL database (and some kind of database viewer, like MySQLWorkbench) and create a new schema called lexcelon_interview_challenge. Once set up, use the credentials you used during setup of your local database to populate an environment variables configuration file. There is an example configuration file provided in server/config/.env.example. Duplicate this file in the same folder, update your database password, and name it .env.
@@ -34,7 +34,7 @@ Sequelize is a tool we use to create and manage our database schema. In the serv
 Note: Behind the scene, Sequelize will convert your fields (column names) to snake_case. Use camalCase when creating your model. You may notice in the seeder file that they are in snake_case-- that is just how the seeder files work.
 
 ### Task 4: Build the rest!
-That should be all the building blocks you need to build out your contacts project.
+That should be all the building blocks you need to build out your contacts project. When you are finished, add me to your repo (@hapney) and shoot me an email to let me know how it went!
 
 ## My Super Rough UI Sketches
 ![IMG_4485](https://user-images.githubusercontent.com/22281425/163461355-d8bb27df-ee02-4abc-a3cb-39c948727a11.jpg)
