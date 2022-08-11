@@ -5,7 +5,7 @@ The goal of this assignment is to test your problem-solving and technical skills
 
 You will be evaluated on the following:
 1. Frequent and descriptive git commits.
-2. Clean, consistent, functional, and commented code.
+2. Clean, consistent, functional, maintainable, and commented code.
 3. Ability to problem solve and use any resources available to you.
 4. Ability to complete your project requirements.
 
@@ -34,7 +34,7 @@ Sequelize is a tool we use to create and manage our database schema. In the serv
 Note: Behind the scene, Sequelize will convert your fields (column names) to snake_case. Use camalCase when creating your model. You may notice in the seeder file that they are in snake_case-- that is just how the seeder files work.
 
 ### Task 4: Build the rest!
-That should be all the building blocks you need to build out your contacts project. When you are finished, add me to your repo (@hapney) and shoot me an email to let me know how it went!
+That should be all the building blocks you need to build out your contacts project. You'll need at least one API route on the server. There may be some existing code in either the client or server that you don't actually have to use-- just make sure your code satisfies the requirements. When you are finished, add me to your repo (@hapney) and shoot me an email to let me know how it went!
 
 ## My Super Rough UI Sketches
 ![IMG_4485](https://user-images.githubusercontent.com/22281425/163461355-d8bb27df-ee02-4abc-a3cb-39c948727a11.jpg)
