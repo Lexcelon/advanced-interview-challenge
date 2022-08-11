@@ -5,7 +5,10 @@ const cors = require('cors');
 const app = express();
 const port = 8000;
 
-//load all of our models
+// Parse URL-encoded bodies (as sent by HTML forms)
+app.use(express.json());
+
+// Load all of our models
 require('./models');
 
 app.listen(port, () => {
